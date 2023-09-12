@@ -1,0 +1,37 @@
+.mainbody{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bck.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bigbox{
+    width: 30%;
+    height: 65%;
+    background-color: rgba(32, 36, 32, 0.750);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbox{
+width: 60%;
+margin: 0.5rem;
+padding: 0.5rem;
+}
+
+.inputbox1::placeholder{
+    color: black;
+}
+
+.button{
+    width: 30%;
+margin: 1rem;
+padding: 0.5rem;
+}

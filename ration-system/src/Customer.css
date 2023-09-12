@@ -1,0 +1,123 @@
+.cstbody{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 26%;
+    gap: 3.5rem;
+}
+
+.cstleft{
+width: 100%;
+height: 90vh;
+}
+
+.order_details{
+    height: 85vh;
+    width: 100%;
+    margin: 1rem;
+    background-color: rgb(250, 235, 215, 0.90);
+    box-shadow: 5px 5px 15px #3A3A3A;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.cstright{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 40% 55%;
+    gap: 2rem;
+}
+
+.profile{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 235, 215, 0.90);
+    box-shadow: 5px 5px 15px #3A3A3A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.dp{
+    width: 30%;
+    height: 30%;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilephoto{
+    font-size: 6rem;
+}
+
+.cstname{
+    background-color: rgba(100, 100, 100);
+    margin: 0;
+    padding: 0.25rem 1rem;
+    border-radius: 2rem;
+}
+
+.rationid{
+    background-color: rgba(100, 100, 100);
+    margin: 0;
+    padding: 0.25rem 1rem;
+    border-radius: 2rem;
+}
+
+.adhaar{
+    background-color: rgba(100, 100, 100);
+    margin: 0;
+    padding: 0.25rem 1rem;
+    border-radius: 2rem;
+}
+
+.cart{
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0 0 1rem;
+    border-radius: 2rem;
+    background-color: rgb(250, 235, 215, 0.90);
+    box-shadow: 5px 5px 15px #3A3A3A;
+}
+
+.food_items{
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 0 1rem;
+}
+
+.items{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.list{
+    height: fit-content;
+    margin: 0;
+    padding: 0 0 0 1rem;
+}
+
+.item{
+    width: fit-content;
+    background-color: rgb(251, 217, 173);
+    box-shadow: 5px 5px 15px #3A3A3A;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+}
